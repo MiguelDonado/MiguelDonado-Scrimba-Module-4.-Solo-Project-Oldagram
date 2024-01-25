@@ -22,31 +22,35 @@
         
         <section>
             <div class="container container-person">
-                <img src="images/avatar-vangogh.jpg" alt="Young Van Gogh" class="avatar">
-                <p class="name"><span class="bold block">Vincent van Gogh</span>Zudert, Netherlands</p>
+                <img src="images/avatar-vangogh.jpg" alt="Young Van Gogh" class="avatar" id="avatar">
+                <p class="name"><span class="bold block" id="name">Vincent van Gogh</span><span id="location">Zudert, Netherlands</span></p>
             </div> 
         </section>
         
         <section>
             <div class="container">
-                <img src="images/post-vangogh.jpg" alt="Van Gogh posing for the camera" class="post">
+                <img src="images/post-vangogh.jpg" alt="Van Gogh posing for the camera" class="post" id="post">
             </div>
         </section>
 
         <section>
             <div class="container">
                 <div class="container-last">
-                    <div class="container-imgs">
-                        <img class="emoji" src="images/icon-heart.png" alt="emoji of a heart">
-                        <img class="emoji" src="images/icon-comment.png" alt="emoji of a comment">
-                        <img class="emoji" src="images/icon-dm.png" alt="emoji of a dm">
+                    <div class="flex-btwn">
+                        <div class="container-emojis">
+                            <img class="emoji" id="heart-emoji" src="images/icon-heart.png" alt="emoji of a heart">
+                            <img class="emoji" src="images/icon-comment.png" alt="emoji of a comment">
+                            <img class="emoji" src="images/icon-dm.png" alt="emoji of a dm">
+                        </div>
+                        <button id="next-btn">NEXT</button>
                     </div>
-                    <p class="bold">21,492 likes</p>
-                    <p><span class="bold">vincey1853</span> just took a few mushrooms lol</p>
+                    <p class="bold" id="likes">21 likes</p>
+                    <p><span class="bold" id="username">vincey1853</span><span id="comment">just took a few mushrooms lol</span></p>
                 </div>
             </div>
         </section>
 
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
