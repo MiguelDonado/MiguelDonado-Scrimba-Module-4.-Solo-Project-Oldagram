@@ -38,7 +38,7 @@ header .container{
     font-weight: bold;
 }
 
-.location{
+.light{
     font-size: 12px;
     font-weight: normal;
     display: block;
@@ -52,4 +52,33 @@ header .container{
 
 .post {
     width: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container-imgs{
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emoji {
+    width: 23px;
+    opacity: 1;
+}
+
+.container p.bold {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.last{
+    margin: 0px;
+}
+
+.container-last{
+    margin: 12px;
 }
