@@ -57,7 +57,7 @@ header .container{
     display: block;
 }
 
-.container-imgs{
+.container-emojis{
     width: 105px;
 }
 
@@ -72,3 +72,22 @@ header .container{
 .container-last{
     margin: 12px;
 }
+
+#username{
+    margin-right: 3px;
+}
+
+button{
+    align-self: stretch;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    color: #C6C6C6;
+    background-color: rgb(26, 23, 23);
+    border: 2px solid #C6C6C6;
+}
+
