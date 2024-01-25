@@ -12,15 +12,6 @@ body {
 .container {
     width: 375px;
     margin: 0 auto;
-
-}
-
-header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid #C6C6C6;
 }
 
 .logo {
@@ -32,16 +23,20 @@ header .container{
     border-radius: 50%;
 }
 
+.flex-btwn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container{
+    padding: 20px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
 .name{
     margin-left: 10px;
     font-size: 13px;
-    font-weight: bold;
-}
-
-.light{
-    font-size: 12px;
-    font-weight: normal;
-    display: block;
 }
 
 .container-person{
@@ -58,25 +53,20 @@ header .container{
     font-weight: bold;
 }
 
+.block{
+    display: block;
+}
+
 .container-imgs{
     width: 105px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .emoji {
     width: 23px;
-    opacity: 1;
 }
 
 .container p.bold {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.last{
-    margin: 0px;
+    margin: 15px 0;
 }
 
 .container-last{
